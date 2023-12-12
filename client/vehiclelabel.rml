@@ -1,0 +1,30 @@
+<rml>
+	<head>
+		<title>Demo</title>
+		<style>
+			body {
+				font-family: sampfont;
+				font-size: 15px;
+
+				width: 100%;
+				height: 100%;
+			}
+
+			.vehiclelabel {
+				position: absolute;
+				font-effect: outline( 1px black );
+				color: #288bc6;
+				height: auto;
+				text-align: center; 
+			}
+
+			.hide {
+				display: none;
+			}	
+
+		</style>
+	</head>
+	<body>
+		<div id="vehiclelabelContainer"></div>
+	</body>
+</rml>
